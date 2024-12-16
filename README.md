@@ -17,7 +17,7 @@
 
 💡 Passionate about building innovative solutions by combining technology and optimization.
 
-## 📊 Estadísticas / Stats  
+## 📊  Stats  
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=JuanBernal13&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -25,7 +25,7 @@
 </div>
 
 ---
-#  Skills**  
+#  **Skills**  
 
 <div align="center">
 
