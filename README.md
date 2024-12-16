@@ -9,7 +9,7 @@
 - Systems and Computer Engineering 💻  
 - Industrial Engineering   
 
-📚 **Professional Interests:**  
+ **Professional Interests:**  
 - Software Development 🖥️  
 - Cloud Computing ☁️  
 - Data Science 📊  
@@ -25,7 +25,7 @@
 </div>
 
 ---
-# 🚀 **Habilidades / Skills**  
+#  Skills**  
 
 <div align="center">
 
