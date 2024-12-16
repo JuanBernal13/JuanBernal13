@@ -17,6 +17,20 @@
 
 💡 Passionate about building innovative solutions by combining technology and optimization.
 
+## Professional Experience
+
+### Software Developer Co-op  
+**Caseware International**  
+*June 2024 - December 2024*
+
+- Contributed to the development of scalable backend solutions using the Node.js stack, focusing on building and optimizing binding services for the Imports team. Also worked with Java Spring boot for backend services
+- Designed and implemented cloud-native solutions leveraging **AWS S3**, **DynamoDB**, and **AWS CDK**.
+- Collaborated in an agile environment.
+- Participated in code reviews and provided constructive feedback to maintain high-quality code standards.
+- Gained hands-on experience with modern DevOps practices, including automated testing, CI/CD pipelines, and infrastructure-as-code (IaC) principles.
+- Delivered detailed documentation for new features.
+
+
 ## 📊  Stats  
 
 <div align="center">
