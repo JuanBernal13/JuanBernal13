@@ -26,7 +26,7 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake-ocean.gif?color_snake=orange&color_dots=#34c759,#007aff,#ffcc00,#ff9500,#5856d6
 
       - name: Verificar archivos generados
         run: |
