@@ -24,9 +24,17 @@
 </div>
 
 ---
-![Snake animation](https://raw.githubusercontent.com/juanbernal13/juanbernal13/main/dist/github-snake.svg)
+## 🐍 GitHub Contribution Snake Game
 
-![Snake animation](https://github.com/juanbernal13/juanbernal13/blob/output/github-snake.svg)
+### SVG Animación
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
+
+### GIF Animación
+![GitHub Snake Game](dist/github-snake-ocean.gif)
 
 
 ## 🚀 Habilidades
