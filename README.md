@@ -1,60 +1,49 @@
+# Hello! 👋  
+**I'm Juan Bernal**  
 
+🚀 **Software Developer at Caseware.**
 
-# ¡Hola! Soy Juan Bernal
+---
 
-## Estadísticas
+🎓 **Dual Degree Student:**  
+- Systems and Computer Engineering 💻  
+- Industrial Engineering ⚙️  
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=juanbernal13&theme=radical&show_icons=true)
+📚 **Professional Interests:**  
+- Software Development 🖥️  
+- Cloud Computing ☁️  
+- Data Science 📊  
+- Operations Research 📈  
 
-## Racha de Contribuciones
+💡 Passionate about building innovative solutions by combining technology and optimization.
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=juanbernal13&theme=radical)
-
-## Trofeos
-
-![trophies](https://github-profile-trophy.vercel.app/?username=juanbernal13&theme=radical)
-
-//Test
-
-## 📊 Mis Estadísticas
+## 📊 Estadísticas / Stats  
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JuanBernal13&show_icons=true&theme=radical&hide=HTML,CSS" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JuanBernal13&layout=compact&theme=radical&hide=HTML,CSS" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JuanBernal13&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JuanBernal13&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 ---
-## 🐍 GitHub Contribution Snake Game
 
-### SVG Animación
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-  <img alt="github-snake" src="dist/github-snake.svg" />
-</picture>
-
-### GIF Animación
-![GitHub Snake Game](dist/github-snake-ocean.gif)
-
-
-## 🚀 Habilidades
+## 🚀 Habilidades / Skills  
 
 <div align="center">
-  <!-- Lenguajes -->
+  <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  
+
   <!-- Frameworks -->
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  
+
   <!-- ML -->
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  
-  <!-- Herramientas -->
+
+  <!-- Tools -->
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
@@ -62,16 +51,15 @@
 
 ---
 
-## 📈 Actividad Reciente
+## GitHub Contribution 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
 
----
 
-## 🛠️ Proyectos Destacados
-
-
----
-
-## 📫 Contacto
+## 📫 Contacto / Contact  
 
 <div align="center">
   <a href="mailto:juan.bernal.2004.gil@gmail.com">
@@ -84,7 +72,3 @@
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
-
----
-
-![Footer](https://user-images.githubusercontent.com/tu-usuario/footer-image.png)
