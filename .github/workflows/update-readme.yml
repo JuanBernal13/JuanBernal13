@@ -24,14 +24,14 @@ jobs:
         id: stats
 
       - name: Generar GitHub Streak
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: denvercoder1/github-readme-streak-stats@v1.0.0
         with:
           username: juanbernal13
           theme: radical
         id: streak
 
       - name: Generar Trofeos
-        uses: ryo-ma/github-profile-trophy@v1
+        uses: ryo-ma/github-profile-trophy@v1.4.0
         with:
           username: juanbernal13
           theme: radical
