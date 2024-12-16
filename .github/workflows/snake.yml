@@ -20,9 +20,25 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          output_dir: dist
+          palette: github-dark # Opcional: Puedes especificar la paleta de colores
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Añadir SVG al repositorio
+        run: |
+          git add dist/github-snake.svg
+          git add dist/github-snake-dark.svg
+          git commit -m "Actualizar animación del Snake Game [skip ci]" || echo "No changes to commit"
+
+      - name: Push cambios
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
 
       - name: Publicar artefactos
         uses: actions/upload-artifact@v3

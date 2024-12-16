@@ -24,6 +24,7 @@
 </div>
 
 ---
+![Snake animation](https://raw.githubusercontent.com/juanbernal13/juanbernal13/main/dist/github-snake.svg)
 
 ![Snake animation](https://github.com/juanbernal13/juanbernal13/blob/output/github-snake.svg)
 
