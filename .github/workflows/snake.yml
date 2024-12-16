@@ -1,9 +1,9 @@
 name: Generar Snake Game
 
 on:
-  push:           
+  push:
     branches:
-      - main       
+      - main
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -16,12 +16,20 @@ jobs:
       - name: Clonar repositorio
         uses: actions/checkout@v3
 
+      - name: Crear directorio dist si no existe
+        run: mkdir -p dist
+
       - name: Generar animación del Snake Game
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           output_dir: dist
-          palette: github-dark # Opcional: Puedes especificar la paleta de colores
+          palette: github-dark # Opcional: puedes especificar la paleta de colores
+
+      - name: Verificar archivos generados
+        run: |
+          echo "Archivos generados en el directorio dist:"
+          ls -la dist
 
       - name: Configurar Git
         run: |
@@ -30,9 +38,9 @@ jobs:
 
       - name: Añadir SVG al repositorio
         run: |
-          git add dist/github-snake.svg
-          git add dist/github-snake-dark.svg
-          git commit -m "Actualizar animación del Snake Game [skip ci]" || echo "No changes to commit"
+          git add dist/github-snake.svg || echo "Archivo github-snake.svg no encontrado"
+          git add dist/github-snake-dark.svg || echo "Archivo github-snake-dark.svg no encontrado"
+          git commit -m "Actualizar animación del Snake Game [skip ci]" || echo "No hay cambios para confirmar"
 
       - name: Push cambios
         uses: ad-m/github-push-action@v0.6.0
