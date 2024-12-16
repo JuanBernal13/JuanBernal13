@@ -1,0 +1,45 @@
+name: Actualizar README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  push:
+    branches:
+      - main
+
+jobs:
+  actualizar-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del Repositorio
+        uses: actions/checkout@v3
+
+      - name: Generar GitHub Stats
+        uses: anuraghazra/github-readme-stats@v4
+        with:
+          username: juanbernal13
+          theme: radical
+          show_icons: true
+        id: stats
+
+      - name: Generar GitHub Streak
+        uses: DenverCoder1/github-readme-streak-stats@v2
+        with:
+          username: juanbernal13
+          theme: radical
+        id: streak
+
+      - name: Generar Trofeos
+        uses: rubyforlife/github-profile-trophy@v1
+        with:
+          username: juanbernal13
+          theme: radical
+
+      - name: Commit y Push Cambios
+        run: |
+          git config --local user.name "juanbernal13"
+          git config --local user.email "ja.bernalg1@uniandes.edu.co"
+          git add README.md
+          git commit -m "Actualiza README con estadísticas y trofeos" || echo "No hay cambios para commitear"
+          git push

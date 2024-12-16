@@ -1,10 +1,20 @@
-![Banner](https://user-images.githubusercontent.com/tu-usuario/banner-image.png)
 
-# Hola, soy Juan Bernal 👋
 
-Soy estudiante de último semestre de **Ingeniería de Sistemas** en la **Universidad de los Andes**, apasionado por el **Desarrollo de Software** y el **Machine Learning**.
+# ¡Hola! Soy Juan Bernal
 
----
+## Estadísticas
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=juanbernal13&theme=radical&show_icons=true)
+
+## Racha de Contribuciones
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=juanbernal13&theme=radical)
+
+## Trofeos
+
+![trophies](https://github-profile-trophy.vercel.app/?username=juanbernal13&theme=radical)
+
+
 
 ## 📊 Mis Estadísticas
 
@@ -14,6 +24,8 @@ Soy estudiante de último semestre de **Ingeniería de Sistemas** en la **Univer
 </div>
 
 ---
+
+
 
 ## 🚀 Habilidades
 
