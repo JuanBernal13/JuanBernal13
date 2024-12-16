@@ -25,6 +25,7 @@
 
 ---
 
+![Snake animation](https://github.com/juanbernal13/juanbernal13/blob/output/github-snake.svg)
 
 
 ## 🚀 Habilidades
