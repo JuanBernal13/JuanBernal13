@@ -7,7 +7,28 @@
 
 
 ## 🛠️ Lenguajes y Herramientas
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JuanBernal13&layout=compact&theme=radical)
+
+### 📊 Lenguajes Más Utilizados
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JuanBernal13&layout=compact&theme=radical&hide=HTML,CSS)
+
+### 🛠️ Herramientas y Tecnologías
+
+<div align="center">
+  <!-- Lenguajes -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+
+  <!-- Frameworks -->
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+
+  <!-- Herramientas -->
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+</div>
 
 ## 📈 Mi Actividad
 ![Actividad Reciente](https://activity-graph.herokuapp.com/graph?username=JuanBernal13&theme=react-dark)
