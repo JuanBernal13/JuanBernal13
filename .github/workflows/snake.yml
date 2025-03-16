@@ -27,13 +27,15 @@ jobs:
           color_snake: orange
 
       - name: Configurar Git y Push Cambios
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: main
-          build_dir: dist
-          commit_message: "Actualizar animación del Snake Game en SVG [skip ci]"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
           force_orphan: true
-          keep_history: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "Actualizar animación del Snake Game en SVG [skip ci]"
+
 
       - name: Publicar artefactos
         uses: actions/upload-artifact@v4
