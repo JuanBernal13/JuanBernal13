@@ -50,7 +50,7 @@ jobs:
           branch: main
 
       - name: Publicar artefactos
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: snake-game-svgs
           path: dist/
