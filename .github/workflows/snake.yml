@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,10 +14,7 @@ jobs:
 
     steps:
       - name: Clonar repositorio
-        uses: actions/checkout@v3
-
-      - name: Crear directorio dist si no existe
-        run: mkdir -p dist
+        uses: actions/checkout@v4
 
       - name: Generar animación del Snake Game en SVG
         uses: Platane/snk@v3
@@ -26,31 +23,21 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+          squares_only: false
+          color_snake: orange
 
-      - name: Verificar archivos generados
-        run: |
-          echo "Archivos generados en el directorio dist:"
-          ls -la dist
-
-      - name: Configurar Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Añadir SVGs al repositorio
-        run: |
-          git add dist/github-snake.svg || echo "Archivo github-snake.svg no encontrado"
-          git add dist/github-snake-dark.svg || echo "Archivo github-snake-dark.svg no encontrado"
-          git commit -m "Actualizar animación del Snake Game en SVG [skip ci]" || echo "No hay cambios para confirmar"
-
-      - name: Push cambios
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Configurar Git y Push Cambios
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          target_branch: main
+          build_dir: dist
+          commit_message: "Actualizar animación del Snake Game en SVG [skip ci]"
+          force_orphan: true
+          keep_history: false
 
       - name: Publicar artefactos
         uses: actions/upload-artifact@v4
         with:
           name: snake-game-svgs
           path: dist/
+          retention-days: 5
