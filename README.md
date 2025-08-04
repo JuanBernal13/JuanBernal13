@@ -21,7 +21,7 @@
 
 ### Software Developer Co-op  
 **Caseware International**  
-*June 2024 - December 2024*
+*June 2024 - July 2025*
 
 - Contributed to the development of scalable backend solutions using the Node.js stack, focusing on building and optimizing binding services for the Imports team. Also worked with Java Spring boot for backend services
 - Designed and implemented cloud-native solutions leveraging **AWS S3**, **DynamoDB**, and **AWS CDK**.
