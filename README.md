@@ -1,7 +1,7 @@
 # Hello! 👋  
 **I'm Juan Bernal**  
 
-🚀 **Software Developer at Caseware.**
+🚀 **Software Engineer.**
 
 ---
 
