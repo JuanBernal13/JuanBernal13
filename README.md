@@ -106,18 +106,20 @@ Focus: Reinforcement Learning, ML Techniques, Advanced Algorithms, Optimization,
 
 ## GitHub Contribution
 
+<!--
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
   <img alt="github-snake" src="dist/github-snake.svg" />
 </picture>
-
+-->
 ---
 
 <div align="center">
 
 **Open to software engineering opportunities** · Based in Bogotá, Colombia
 
-[![Profile Views](https://komarev.com/ghpvc/?username=JuanBernal13&color=0969da&style=flat-square&label=Profile+Views)](https://github.com/JuanBernal13)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=juanbernal13&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
