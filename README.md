@@ -17,7 +17,7 @@ I combine software engineering with optimization thinking to build scalable, dat
 
 ## About Me
 
-- Software Engineer at **Scotiabank** (COMEX Peru IT), building mission-critical backend services for international trade operations across Latin America.
+- Software Engineer at **Scotiabank** (Wealth Management and International Trading), building mission-critical backend services for international trade operations across Latin America.
 - Previously Backend Engineer at **Nebula Medical** (AI-driven healthcare platform) and Software Developer at **Caseware** (global audit platform, 475K+ users).
 - M.Sc. candidate in Systems & Computing Engineering at Universidad de los Andes (starting Aug 2026).
 - Interested in scalable architecture, applied machine learning, cloud computing, and optimization.
