@@ -17,9 +17,7 @@ I combine software engineering with optimization thinking to build scalable, dat
 
 ## About Me
 
-- Software Engineer at **Scotiabank** (Wealth Management and International Trading), building mission-critical backend services for international trade operations across Latin America.
 - Previously Backend Engineer at **Nebula Medical** (AI-driven healthcare platform) and Software Developer at **Caseware** (global audit platform, 475K+ users).
-- M.Sc. candidate in Systems & Computing Engineering at Universidad de los Andes (starting Aug 2026).
 - Interested in scalable architecture, applied machine learning, cloud computing, and optimization.
 
 ---
@@ -70,16 +68,12 @@ Distributed system using Spring Cloud (Eureka, Config, Gateway) in an Nx monorep
 
 | Role | Company | Period | Highlights |
 |---|---|---|---|
-| **Software Engineer** | Scotiabank | Feb 2026 – Present | Backend services for COMEX international trade operations. SWIFT GPI integration. Securities platform for investment portfolio management. |
 | **Backend Engineer** | Nebula Medical | Aug 2025 – Feb 2026 | RAG-based AI medical platform with LangChain. Multi-model orchestration (GPT-4, Claude, Gemini). HIPAA-compliant architecture. |
 | **Software Developer** | Caseware | Jun 2024 – Jul 2025 | Integrations for 475K+ user audit platform. Backend microservices (Java Spring Boot, Node.js). AWS CDK deployments. Data migrations (500K+ records). |
 
 ---
 
 ## Education
-
-**M.Sc. Systems & Computing Engineering** — Universidad de los Andes *(Aug 2026 – Dec 2027)*
-Focus: Reinforcement Learning, ML Techniques, Advanced Algorithms, Optimization, Robotics
 
 **B.S. Systems & Computing Engineering** — Universidad de los Andes *(Jan 2021 – Jun 2025)* — GPA: 4.21/5.0
 
@@ -89,10 +83,8 @@ Focus: Reinforcement Learning, ML Techniques, Advanced Algorithms, Optimization,
 
 ## Currently
 
-- Building backend services for international trade operations at Scotiabank
 - Exploring applied AI systems: RAG, GNN, and retrieval workflows
 - Interested in scalable architecture, optimization, and ML-powered products
-- Preparing for M.Sc. in Systems & Computing Engineering
 
 ---
 
@@ -114,6 +106,7 @@ Focus: Reinforcement Learning, ML Techniques, Advanced Algorithms, Optimization,
   <img alt="github-snake" src="dist/github-snake.svg" />
 </picture>
 -->
+
 ---
 
 <div align="center">
